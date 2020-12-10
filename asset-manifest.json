@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/course-work-nb/static/css/main.2e72ca38.chunk.css",
-    "main.js": "/course-work-nb/static/js/main.8515d2e9.chunk.js",
-    "main.js.map": "/course-work-nb/static/js/main.8515d2e9.chunk.js.map",
+    "main.css": "/course-work-nb/static/css/main.16d0f02e.chunk.css",
+    "main.js": "/course-work-nb/static/js/main.dbb1aac1.chunk.js",
+    "main.js.map": "/course-work-nb/static/js/main.dbb1aac1.chunk.js.map",
     "runtime-main.js": "/course-work-nb/static/js/runtime-main.02608ea3.js",
     "runtime-main.js.map": "/course-work-nb/static/js/runtime-main.02608ea3.js.map",
     "static/js/2.7dd5f450.chunk.js": "/course-work-nb/static/js/2.7dd5f450.chunk.js",
     "static/js/2.7dd5f450.chunk.js.map": "/course-work-nb/static/js/2.7dd5f450.chunk.js.map",
     "index.html": "/course-work-nb/index.html",
-    "static/css/main.2e72ca38.chunk.css.map": "/course-work-nb/static/css/main.2e72ca38.chunk.css.map",
+    "static/css/main.16d0f02e.chunk.css.map": "/course-work-nb/static/css/main.16d0f02e.chunk.css.map",
     "static/js/2.7dd5f450.chunk.js.LICENSE.txt": "/course-work-nb/static/js/2.7dd5f450.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.02608ea3.js",
     "static/js/2.7dd5f450.chunk.js",
-    "static/css/main.2e72ca38.chunk.css",
-    "static/js/main.8515d2e9.chunk.js"
+    "static/css/main.16d0f02e.chunk.css",
+    "static/js/main.dbb1aac1.chunk.js"
   ]
 }
