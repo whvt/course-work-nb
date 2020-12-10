@@ -5,14 +5,14 @@ import axios from 'axios'
 
 function App() {
   const [flashcards, setFlashcards] = useState([])
-  const [categories, serCategories] = useState([])
+  const [categories, setCategories] = useState([])
 
   const categoryEl = useRef()
   const amountEl = useRef()
 
   useEffect(() => {
     axios.get('https://opentdb.com/api_category.php').then((res) => {
-      serCategories(res.data.trivia_categories)
+      setCategories(res.data.trivia_categories)
     })
   }, [])
 
@@ -27,7 +27,7 @@ function App() {
   function handleSubmit(e) {
     e.preventDefault()
     axios
-      .get('https://opentdb.com/api.php?amount=10', {
+      .get('https://opentdb.com/api.php', {
         params: {
           amount: amountEl.current.value,
           category: categoryEl.current.value,
@@ -56,7 +56,7 @@ function App() {
     <>
       <form className='header' onSubmit={handleSubmit}>
         <div className='form-group'>
-          <label htmlFor='categoty'>Категория</label>
+          <label htmlFor='category'>Категория</label>
           <select id='category' ref={categoryEl}>
             {categories.map((category) => {
               return (
@@ -76,7 +76,7 @@ function App() {
             step='1'
             defaultValue={10}
             ref={amountEl}
-          ></input>
+          />
         </div>
         <div className='form-group'>
           <button className='btn'>Сгенерировать</button>
