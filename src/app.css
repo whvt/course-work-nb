@@ -1,5 +1,5 @@
 body {
-  background-color: wheat;
+  background-color: #f6f8fa;
   margin: 0;
 }
 
@@ -83,6 +83,7 @@ body {
 }
 
 .card .front {
+  font-family: 'Roboto', sans-serif;
   left: 0;
 }
 
@@ -109,4 +110,12 @@ body {
 
 .flashcard-option:first-child {
   margin-top: 0;
+}
+
+.btn-container {
+  max-width: 1000px;
+  padding-top: 0.5em;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
 }
